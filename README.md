@@ -48,13 +48,13 @@ A Bash-based interactive tool to manage Git repositories, users, branches, and r
 
 ## 🗃️ Project Structure
 
-├── main.sh # Entry point and main menu logic
-├── users.db # User credentials (username:hashed_password)
-├── user_data/ # Directory storing user-specific repositories
-├── repo_manage.sh # Repository-level operations
-├── branch_manage.sh # Branch, file, and versioning operations
-├── remote_manage.sh # GitHub remote and network sync functions
-├── commit_manage.sh # Commit staging and history handling
+-- main.sh # Entry point and main menu logic
+-- users.db # User credentials (username:hashed_password)
+-- user_data/ # Directory storing user-specific repositories
+-- repo_manage.sh # Repository-level operations
+-- branch_manage.sh # Branch, file, and versioning operations
+-- remote_manage.sh # GitHub remote and network sync functions
+-- commit_manage.sh # Commit staging and history handling
 
 
 ---
@@ -100,20 +100,3 @@ You can generate a PAT from GitHub by visiting:
 - No external dependencies used besides Git and Bash
 
 ---
-
-## 📷 Screenshots (Optional)
-
-You can add images showing:
-- User registration/login
-- Repository creation
-- File operations
-- Git push/pull with authentication
-
----
-
-## 📄 License
-
-MIT License — free to use, modify, and distribute.
-
----
-
